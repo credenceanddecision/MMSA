@@ -28,7 +28,7 @@ This code is inspired by the following research:
 Tang, S., Musunuru, S., Zong, B. and Thornton, B., 2024. Quantifying Marketing Performance at Channel-Partner Level by Using Marketing Mix Modeling (MMM) and Shapley Value Regression. arXiv preprint arXiv:2401.05653.
 
 ## Sample Data Input
-![Sample Data Input](images/img3.png)
+<img src="images/img3.png" alt="" width="650">
 
 ## Sample Analysis Output
-![Sample Analysis Output](images/img2.png)
+<img src="images/img2.png" alt="" width="650">
