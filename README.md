@@ -19,9 +19,18 @@ Input data should be time-series, organized in an Excel spreadsheet with the dat
 
 ## Interpreting Results
 
-The output comprises R-squared (R²) values and Shapley Value adjusted coefficients from linear regression analyses. These metrics measure the extent of sales variability explained by the marketing partners' efforts and their weighted contribution, respectively. Such insights afford a deeper understanding of each partner's impact on sales.
+The output comprises R-squared (R²) values and Shapley Value adjusted coefficients from linear regression analyses. These metrics measure the extent of sales variability explained by the marketing partners' efforts and their weighted contribution, respectively. Such insights afford a deeper understanding of each partner's impact on sales. Shapley Value Regression is a useful approach for elucidating performance at the partner level within marketing channels, handling multicollinearity to provide clear-cut contribution metrics.
 
-Shapley Value Regression is a potent approach for elucidating performance at the partner level within marketing channels, deftly handling multicollinearity to provide clear-cut contribution metrics.
+## Understanding Shapley Value Regression
+
+Shapley Value Regression is a technique that addresses the challenge of assessing the importance of attributes in a linear regression model. Typically, attribute significance is inferred from the model's coefficients. However, when a model includes a multitude of independent variables, it's often unrealistic to assume that all these variables are mutually independent. More often than not, some variables are collinear, meaning they are highly correlated with one another.
+
+In a simplified scenario, one might opt to eliminate collinear attributes before performing the regression analysis. Yet, in complex real-world business cases, every selected attribute carries weight and significance, making it impractical to discard collinear variables arbitrarily. This is where the need arises to accurately measure the importance of each attribute, despite the presence of collinearity.
+
+Shapley Value Regression, also known by several other names such as Shapley regression, Shapley Value analysis, Kruskal analysis, dominance analysis, and incremental R-squared analysis, provides a solution. It's particularly useful in situations where independent variables in a linear regression are moderately to highly correlated. Beyond its application in linear regression, this method is also valuable for calculating the contribution of each predictor in statistical analyses, offering a robust approach to attribute importance quantification.
+
+
+## Credits
 
 This code is inspired by the following research:
 
