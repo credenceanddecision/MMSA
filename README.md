@@ -1,6 +1,6 @@
-# Sub-Channel Marketing Performance Analysis Tool
+# MarketMix Shapley Analyser (MMSA)
 
-This tool applies Shapley Value Regression to dissect marketing performance at the granular level of individual channel partners, enhancing the broader insights gained from traditional Marketing Mix Modeling (MMM). It's designed to pinpoint the distinct influence each partner has within a channel.
+MMSA is a sub-channel marketing performance analysis tool. This tool applies Shapley Value Regression to dissect marketing performance at the granular level of individual channel partners, enhancing the broader insights gained from traditional Marketing Mix Modeling (MMM). It's designed to pinpoint the distinct influence each partner has within a channel.
 
 ## How to Use
 
